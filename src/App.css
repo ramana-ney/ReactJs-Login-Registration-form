@@ -1,0 +1,102 @@
+ /* .container{
+    height: 300px;
+    width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+  margin: 150px auto;
+  border-radius: 10px;
+  
+
+ }
+ .lform{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+ }
+ .lform input{
+    padding: 8px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+ }
+ button{
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    margin: 0 0 0 50px;
+    padding: 10px;
+ }
+ button:hover{
+    background: green;
+    color: black;
+    transition: 0.5s;
+ }
+ .lform h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+ } 
+ .login{
+   display: none;
+ }
+ .btn{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ } */
+
+
+ .sign-up{
+   height: 300px;
+   width:300px;
+   margin: 150px auto;
+   background-color: rgb(247, 244, 244);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-radius: 10px;
+ }
+ .lists{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   row-gap: 15px;
+ }
+ .lists input{
+   padding: 10px;
+   border-radius: 5px;
+   border: 2px solid rgb(230, 219, 219);
+   outline: 0;
+ }
+ .btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 10px;
+ }
+ h2{
+   color: #060606;
+   border-bottom: 2px solid tomato;
+   padding: 0 0 5px 0;
+ }
+ .btn button{
+   padding: 10px 15px;
+   border-radius: 5px;
+   outline: 0;
+   border: 2px solid rgb(230, 219, 219);
+   transition: all ease-out 0.5s ;
+ }
+ .btn button:hover{
+   background: lightgreen;
+   transition: 0.5s ;
+   width: 100px;
+   border: 0;
+   outline: 0;
+
+ }
